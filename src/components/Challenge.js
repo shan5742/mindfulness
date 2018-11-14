@@ -9,7 +9,7 @@ class Challenge extends Component {
       <div className="tc">
         <div className="tc pv2">
           <h1>Welcome to 100 days of Mindfulness</h1>
-          <h4>This is your challenge for today:</h4>
+          <h3>This is your challenge for today:</h3>
         </div>
         <h2 className="pv5 white f1">"{RandomChallenge}"</h2>
       </div>
