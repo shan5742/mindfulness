@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Help from "./Help";
 
 class About extends Component {
   render() {
@@ -18,12 +19,14 @@ class About extends Component {
           recusandae laborum accusantium distinctio possimus rem! Quos, tempora
           ad.
         </p>
-        <p className="tc white">
+        <p className="tc white mb7">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione
           omnis cum, fugit, quas ad porro impedit a est illum saepe itaque
           recusandae laborum accusantium distinctio possimus rem! Quos, tempora
           ad.
         </p>
+
+        <Help />
       </div>
     );
   }

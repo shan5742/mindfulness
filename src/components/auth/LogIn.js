@@ -20,7 +20,7 @@ class LogIn extends Component {
       this.state.email === "" ||
       this.state.name === "";
     return (
-      <div>
+      <div className="tc">
         <h1 className="f1 tc">Log In</h1>
         <article class="pa4 black-80">
           <p className="f4">
@@ -31,7 +31,7 @@ class LogIn extends Component {
               <legend class="ph0 mh0 fw6 clip">Sign Up</legend>
               <div class="mt3">
                 <label class="db fw4 lh-copy f6" for="name">
-                  Email Adrress
+                  Email Address
                 </label>
                 <input
                   class="pa2 input-reset ba bg-white w-100 measure"

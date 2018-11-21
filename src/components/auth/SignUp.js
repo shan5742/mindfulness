@@ -20,7 +20,7 @@ class SignUp extends Component {
       this.state.email === "" ||
       this.state.name === "";
     return (
-      <div>
+      <div className="tc">
         <h1 className="f1 tc">Sign Up for 100 Days of Mindfulness</h1>
         <article class="pa4 black-80">
           <p className="f4">
