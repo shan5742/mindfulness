@@ -6,16 +6,20 @@ class Nav extends Component {
       <div className="Nav tc">
         <header className="bg-light-blue w-100 ph3 pv3 pv4-ns ph4-m ph5-l">
           <nav className="f4 fw6 ttu tracked">
-            <a className="link dim black dib mr3" href="#" title="Home">
+            <a className="link dim black dib mr3" href="/" title="Home">
               Home
             </a>
-            <a className="link dim black dib mr3" href="#" title="About">
+            <a
+              className="link dim black dib mr3"
+              href="/signup"
+              title="Sign Up"
+            >
               Sign Up
             </a>
-            <a className="link dim black dib mr3" href="#" title="Store">
-              Sign In
+            <a className="link dim black dib mr3" href="/login" title="Log In">
+              Log In
             </a>
-            <a className="link dim black dib" href="#" title="Contact">
+            <a className="link dim black dib" href="/about" title="About">
               About
             </a>
           </nav>

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import ChallengeData from "../data/Challenges.json";
+import Help from "./Help";
 
 class Challenge extends Component {
   render() {
@@ -12,6 +13,7 @@ class Challenge extends Component {
           <h3>This is your challenge for today:</h3>
         </div>
         <h2 className="pv5 white f1">"{RandomChallenge}"</h2>
+        <Help />
       </div>
     );
   }
